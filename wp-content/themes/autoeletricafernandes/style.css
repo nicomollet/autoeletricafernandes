@@ -1,0 +1,173 @@
+/*
+Theme Name: Auto Eletrica Fernandes
+Theme URI: http://www.nicolasmollet.com
+Description: Theme for Auto Eletrica Fernandes
+Author: Nicolas Mollet
+Version: 0.1
+Tags:
+Template: twentyeleven
+*/
+@import url('../twentyeleven/style.css');
+
+
+
+/*
+*********************************************
+ELETRICA
+*********************************************
+*/
+.home #main ul {margin-left: 1em;}
+ul.nobullets, ul.nobullets li{list-style: none}
+footer {background: none repeat scroll 0 0 #F9F9F9;}
+#site-generator {
+    border-top: none; background: none;
+}
+
+h1#site-title {padding:0;}
+h1#site-title a{background: url("images/logo.png") no-repeat;text-indent: -9999px; overflow: hidden;margin-top:30px;
+    padding:0;display: block;width: 400px;height: 93px}
+
+
+#branding #contact_options {
+    position: absolute;
+    right: 7.6%;
+    text-align: left;
+    top: 2.2em;
+}
+#branding #ligar {
+    line-height: 1.2em;
+    padding-left: 25px; background: url("images/ligar.png") no-repeat 0 3px;font-size: 1.4em;
+}
+#branding #email {margin-top:12px;
+    padding-left: 25px; background: url("images/email.png") no-repeat 1px 7px;font-size: 1.0em;
+}
+
+#branding #ligar a,#branding #email a {color:#444444;
+
+}
+
+#branding #ligar span{color:#A8A8A8;
+}
+
+body.home #primary {
+    float: right;
+    margin: 0 0 0 -38.4%;
+    width: 100%;
+}
+body.home #content {
+    margin: 0 7.6% 0 42%;
+    width: 50.4%;
+}
+body.home #secondary {
+    float: left;
+    margin-left: 7.6%;
+    margin-right: 0;
+    width: 28.8%;
+}
+
+#home-oficina li{ background: url("images/tick-icon.png") no-repeat 0 5px; padding-left: 26px}
+#home-oficina { font-size: 110%; font-weight: normal;}
+#home-oficina p{ margin-bottom: 0.5em;}
+#home-oficina h3{ display: none;}
+
+.home-block {width: 47%; float:left;font-size: 90%; }
+.home-block ul, .home-block p{margin-bottom: 0.5em}
+.home-block .inside{padding: 15px;border: 1px solid #DFDFDF;font-size: 90%}
+.home-block h3{padding: 0px 20px;font-size: 110%}
+#home-veiculos{margin-left:3%;}
+#home-produtos{margin-left:3%;margin-top:2em}
+#home-servicos{margin-right:3%;}
+
+.singular.page .hentry {
+    padding: 0;
+}
+
+#home-fotos img {
+    /*max-width: none;*/
+}
+#content a {text-decoration: underline}
+
+
+
+@media (max-width: 800px) {
+	/* Simplify the basic layout */
+    #contact_options {
+        clear: both;
+        position: inherit !important;
+        right: inherit !important;
+        top: inherit !important;
+        right: inherit !important;
+        margin: 0 7.6% 2em 7.6% !important;
+    }
+}
+@media (max-width: 650px) {
+	/* @media (max-width: 650px) Reduce font-sizes for better readability on smaller devices */
+
+}
+@media (max-width: 450px) {
+    #content .gallery-columns-1 .gallery-item img {
+		width: 100%;
+		height: auto;
+	}
+
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    h1#site-title a {
+        background: url("images/logo_mobile.png") no-repeat !important;
+        display: block;
+        height: 60px;
+
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        text-indent: -9999px;
+        width: 240px;
+    }
+    #site-description {
+        margin-top:0.5em;
+    }
+	#branding {
+		margin: 0;
+
+		padding: 0;
+        padding-top: 30px;
+	}
+    #page {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+
+
+/*
+*********************************************
+FERNANDES
+*********************************************
+*/
+.home-block h3{background: #BF0B0B;color:#fff;}
+#site-description {
+    margin: 0 7.6% 1.65625em 0;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+	background: #FFF200;
+}
+#access li:hover > a,
+#access a:focus {
+	background: #FFF200; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#FFF200, #cccccc);
+	background: -o-linear-gradient(#FFF200, #cccccc);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF200), to(#cccccc)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#FFF200, #cccccc);
+	color: #373737;
+}
+
+
+.galleryid-19, .galleryid-21 {float:right;margin-top:-100px}
+.page-id-19 #content h2, .page-id-21 #content h2{clear: none;}
+.page-id-19 .gallery-icon, .page-id-21 .gallery-icon{margin-left:10px}
